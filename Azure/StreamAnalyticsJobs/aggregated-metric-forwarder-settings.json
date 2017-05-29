@@ -1,0 +1,129 @@
+[
+    {
+        "SystemId": "kpc.sde",
+        "ServiceId": "api_service",
+        "MetricName": "aspnet_req_rate",
+        "AggregatingFunction": "SUM"
+    },
+    {
+        "SystemId": "kpc.sde",
+        "ServiceId": "api_service",
+        "MetricName": "cpu",
+        "AggregatingFunction": "AVG"
+    },
+    {
+        "SystemId": "kpc.sde",
+        "ServiceId": "api_service",
+        "MetricName": "memory",
+        "AggregatingFunction": "AVG"
+    },
+    {
+        "SystemId": "kpc.sde",
+        "ServiceId": "discovery_service",
+        "MetricName": "aspnet_req_rate",
+        "AggregatingFunction": "SUM"
+    },
+    {
+        "SystemId": "kpc.sde",
+        "ServiceId": "discovery_service",
+        "MetricName": "cpu",
+        "AggregatingFunction": "AVG"
+    },
+    {
+        "SystemId": "kpc.sde",
+        "ServiceId": "discovery_service",
+        "MetricName": "memory",
+        "AggregatingFunction": "AVG"
+    },
+    {
+        "SystemId": "kpc.sde",
+        "ServiceId": "orleans_service",
+        "MetricName": "af.stat.recevied_events.rate.1min",
+        "AggregatingFunction": "SUM"
+    },
+    {
+        "SystemId": "kpc.sde",
+        "ServiceId": "orleans_service",
+        "MetricName": "af.stat.failed_events",
+        "AggregatingFunction": "SUM"
+    },
+    {
+        "SystemId": "kpc.sde",
+        "ServiceId": "orleans_service",
+        "MetricName": "af.stat.filtered_events",
+        "AggregatingFunction": "SUM"
+    },
+    {
+        "SystemId": "kpc.sde",
+        "ServiceId": "orleans_service",
+        "MetricName": "core.notification_queue.received_messages.rate.1min",
+        "AggregatingFunction": "SUM"
+    },
+    {
+        "SystemId": "kpc.sde",
+        "ServiceId": "orleans_service",
+        "MetricName": "cpu",
+        "AggregatingFunction": "AVG"
+    },
+    {
+        "SystemId": "kpc.sde",
+        "ServiceId": "orleans_service",
+        "MetricName": "memory",
+        "AggregatingFunction": "AVG"
+    },
+    
+    {
+        "SystemId": "kpc.safekids",
+        "ServiceId": "ekp_web_service",
+        "MetricName": "aspnet_req_rate",
+        "AggregatingFunction": "SUM"
+    },
+    {
+        "SystemId": "kpc.safekids",
+        "ServiceId": "ekp_web_service",
+        "MetricName": "cpu",
+        "AggregatingFunction": "AVG"
+    },
+    {
+        "SystemId": "kpc.safekids",
+        "ServiceId": "ekp_web_service",
+        "MetricName": "memory",
+        "AggregatingFunction": "AVG"
+    },
+    {
+        "SystemId": "kpc.safekids",
+        "ServiceId": "software_web_service",
+        "MetricName": "aspnet_req_rate",
+        "AggregatingFunction": "SUM"
+    },
+    {
+        "SystemId": "kpc.safekids",
+        "ServiceId": "software_web_service",
+        "MetricName": "cpu",
+        "AggregatingFunction": "AVG"
+    },
+    {
+        "SystemId": "kpc.safekids",
+        "ServiceId": "software_web_service",
+        "MetricName": "memory",
+        "AggregatingFunction": "AVG"
+    },
+    {
+        "SystemId": "kpc.safekids",
+        "ServiceId": "setting_web_service",
+        "MetricName": "aspnet_req_rate",
+        "AggregatingFunction": "SUM"
+    },
+    {
+        "SystemId": "kpc.safekids",
+        "ServiceId": "setting_web_service",
+        "MetricName": "cpu",
+        "AggregatingFunction": "AVG"
+    },
+    {
+        "SystemId": "kpc.safekids",
+        "ServiceId": "setting_web_service",
+        "MetricName": "memory",
+        "AggregatingFunction": "AVG"
+    }
+]

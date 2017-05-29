@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="AzureCloudService1" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="TestWebRole">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="" />
+      <Setting name="MetricsHubNs" value="" />
+      <Setting name="MetricsHub" value="" />
+      <Setting name="MetricsClientSasToken" value="" />
+      <Setting name="SystemId" value="DevConDev" />
+      <Setting name="ServiceId" value="TestWebApp" />
+      <Setting name="Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="tester" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCEGCxXQoO8oueRQkQpYQZAeAwDQYJKoZIhvcNAQEBBQAEggEADHzOsapxX7G8YTju+cVNpZaLVURODf0BzJb67j8eF24KN2AAP9AIhQQocFS13mV2N7bfzb67zaNcAQ4P1uzbsmKDIv00K/J9dE453nrbS6BEAl1+VbA5mW7KB1fYjxIby52FaW7OLwDhy84tEEau3GSxCmnMGMvn/5FJebyOy418Jf17ZBjxE5EpJ1SgL2Am9jrJ8cUlP4Np7pqoDhYlhcDYbHD0/OmhfZGrma8cbcxCkqY2qcyYZt/ipHm3eiPynw46osBvMe9yllPhBp0hZyvdueaiZvH4n3eCn284xto0gxqrM4bjxike6RUfXHRl/xocbfes8jVsnX8S1QJHcTAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECI079ItPKlwMgBBjnMi+0BfHbc0LgH3dBSAx" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2018-05-27T23:59:59.0000000+03:00" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="71DFDEF144DB1600E7ACADF2E8A93FF7951BD4D6" thumbprintAlgorithm="sha1" />
+    </Certificates>
+  </Role>
+</ServiceConfiguration>

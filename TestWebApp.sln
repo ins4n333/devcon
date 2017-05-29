@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubTokenGenerator", "EventHubTokenGenerator\EventHubTokenGenerator.csproj", "{7AC95807-A41F-4CEA-802D-E15B99932513}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomMetrics", "Metrics\CustomMetrics.csproj", "{C7002BE4-9654-46A8-9906-8F069CEEE6EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StreamAnalytics", "StreamAnalytics", "{444D5C88-D1C7-4C1A-BEDC-934E67579681}"
+	ProjectSection(SolutionItems) = preProject
+		Azure\StreamAnalyticsJobs\metric-forwarder-query.sql = Azure\StreamAnalyticsJobs\metric-forwarder-query.sql
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{FC1CA074-85BF-4501-9173-D751FD3A4A53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{372A883E-DF60-4A96-991D-7EF0A1A6BA1D}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+	EndProjectSection
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "AzureCloudService1", "AzureCloudService1\AzureCloudService1.ccproj", "{23B9445A-87C4-4BD0-9841-C8F8D4F885CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebRole", "TestWebRole\TestWebRole.csproj", "{DE634318-0A02-4924-AFFC-7D489ED530B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AC95807-A41F-4CEA-802D-E15B99932513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AC95807-A41F-4CEA-802D-E15B99932513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AC95807-A41F-4CEA-802D-E15B99932513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AC95807-A41F-4CEA-802D-E15B99932513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7002BE4-9654-46A8-9906-8F069CEEE6EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7002BE4-9654-46A8-9906-8F069CEEE6EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7002BE4-9654-46A8-9906-8F069CEEE6EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7002BE4-9654-46A8-9906-8F069CEEE6EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC1CA074-85BF-4501-9173-D751FD3A4A53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC1CA074-85BF-4501-9173-D751FD3A4A53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC1CA074-85BF-4501-9173-D751FD3A4A53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC1CA074-85BF-4501-9173-D751FD3A4A53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23B9445A-87C4-4BD0-9841-C8F8D4F885CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23B9445A-87C4-4BD0-9841-C8F8D4F885CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23B9445A-87C4-4BD0-9841-C8F8D4F885CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23B9445A-87C4-4BD0-9841-C8F8D4F885CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE634318-0A02-4924-AFFC-7D489ED530B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE634318-0A02-4924-AFFC-7D489ED530B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE634318-0A02-4924-AFFC-7D489ED530B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE634318-0A02-4924-AFFC-7D489ED530B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
